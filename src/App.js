@@ -90,7 +90,7 @@ const numberStatus = (number) => {
 
   }
   const onNumberClick = (number, currentStatus) =>{
-    if(gameStatus !=='active' || currentStatus == 'used') {
+    if(gameStatus !=='active' || currentStatus === 'used') {
       return ;
     }
 
